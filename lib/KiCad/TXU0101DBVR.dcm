@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXU0101DBVR
+D Translation - Voltage Levels Single channel fixed-direction level shifter
+K
+F https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101
+$ENDCMP
+#
+#End Doc Library
