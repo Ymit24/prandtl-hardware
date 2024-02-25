@@ -568,6 +568,10 @@
       {
         "netclass": "SIGNAL_5V",
         "pattern": "/*_5v"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "+12V"
       }
     ]
   },
@@ -687,6 +691,14 @@
     [
       "e7dc7c2b-347f-4a52-91f1-4651868a2780",
       "Root"
+    ],
+    [
+      "74161ce2-c20f-4d1a-83e7-2f0e6893be4f",
+      "level_shifters"
+    ],
+    [
+      "4216f952-6e86-4114-ae98-857a9668382f",
+      "Power Regulation"
     ]
   ],
   "text_variables": {}

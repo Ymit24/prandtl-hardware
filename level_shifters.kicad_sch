@@ -1,0 +1,4941 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f78f968f-205e-45ef-9ad8-ed40354fad1d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "custom_symbols:TXU0101DBVR"
+			(pin_names
+				(offset 0.762)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TXU0101DBVR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "custom_footprints:TXU0101DBVR"
+				(at 24.13 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+				(at 24.13 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+				(at 24.13 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.45"
+				(at 24.13 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "595-TXU0101DBVR"
+				(at 24.13 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+				(at 24.13 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 24.13 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TXU0101DBVR"
+				(at 24.13 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(symbol "TXU0101DBVR_0_0"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -5.08 180)
+					(length 5.08)
+					(name "BY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 -2.54 180)
+					(length 5.08)
+					(name "OE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TXU0101DBVR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 22.86 2.54) (xy 22.86 -7.62) (xy 5.08 -7.62) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+5V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 77.47 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06be0dba-7029-4259-9276-7ff52e89fbdd")
+	)
+	(junction
+		(at 147.32 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c3a295e-e714-47eb-a7c5-881871ac8acf")
+	)
+	(junction
+		(at 77.47 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bc1c871-9e9a-47d0-a058-9c10a31fe106")
+	)
+	(junction
+		(at 77.47 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c46bad3-905b-4915-86e3-61bc65e78b50")
+	)
+	(junction
+		(at 147.32 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fccc412-70d4-4d02-b202-ebc2fa3e026d")
+	)
+	(junction
+		(at 77.47 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60721d56-4bf1-4359-919f-e5bfb39ba73c")
+	)
+	(junction
+		(at 147.32 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ebad05d-0c02-4074-ba08-f5aa97e78c14")
+	)
+	(junction
+		(at 147.32 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee1f035a-e041-4e59-a22f-8d6530f4d6fa")
+	)
+	(wire
+		(pts
+			(xy 99.06 69.85) (xy 115.57 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00600f59-071a-49f4-8a89-fd84a6ad57e0")
+	)
+	(wire
+		(pts
+			(xy 185.42 39.37) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011b1fee-94e7-49b3-9d59-d48e4bf09be5")
+	)
+	(wire
+		(pts
+			(xy 236.22 49.53) (xy 241.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "014e7ff1-3d32-46bf-b35b-5ee5f354a7fc")
+	)
+	(wire
+		(pts
+			(xy 99.06 101.6) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065bdf68-901f-42e2-bbfc-8d12ee4a4868")
+	)
+	(wire
+		(pts
+			(xy 22.86 33.02) (xy 22.86 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a4ed3b-c7a3-42a1-b215-c061df0cd075")
+	)
+	(wire
+		(pts
+			(xy 22.86 67.31) (xy 41.91 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07feba0f-2bce-4bf9-9656-c8372864e158")
+	)
+	(wire
+		(pts
+			(xy 236.22 41.91) (xy 241.3 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ac6a9c-127e-45df-b70a-ba1bb305b8b2")
+	)
+	(wire
+		(pts
+			(xy 236.22 44.45) (xy 241.3 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b28b80d-b03d-4d52-812a-d7cda980b5d1")
+	)
+	(wire
+		(pts
+			(xy 99.06 133.35) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bc9ea30-6a98-403d-87c2-ffcf08be5b01")
+	)
+	(wire
+		(pts
+			(xy 97.79 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f7c1682-eb3a-4d76-b771-2c8dc83db9d2")
+	)
+	(wire
+		(pts
+			(xy 69.85 96.52) (xy 77.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6ac571-a729-494e-a3d7-6e7fd95b18ff")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bed54ac-4a02-4c32-909d-09cdb3a0bd92")
+	)
+	(wire
+		(pts
+			(xy 185.42 34.29) (xy 190.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c7ba75d-1066-4cf9-aad9-9998bbf8d204")
+	)
+	(wire
+		(pts
+			(xy 22.86 96.52) (xy 22.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "257a40f6-39a0-43d7-ab3c-4ae87d944875")
+	)
+	(wire
+		(pts
+			(xy 69.85 64.77) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aadaf57-6eb5-4369-a832-2466f48e2374")
+	)
+	(wire
+		(pts
+			(xy 185.42 31.75) (xy 190.5 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30947fa8-4404-4c00-acb7-baf3e0dd6a3d")
+	)
+	(wire
+		(pts
+			(xy 97.79 130.81) (xy 97.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320102e5-e8d6-43c7-ba66-136dfb3f2b4f")
+	)
+	(wire
+		(pts
+			(xy 22.86 130.81) (xy 41.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3321f7da-7784-4fa3-a6d5-bdb3f6495475")
+	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 97.79 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb8ded6-c91d-44e9-96cd-80fb66c1345f")
+	)
+	(wire
+		(pts
+			(xy 77.47 123.19) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4815d4-3b91-4c0a-9ae1-29cbb600d9ae")
+	)
+	(wire
+		(pts
+			(xy 185.42 49.53) (xy 190.5 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ead5a54-4bd0-4432-a9de-877c2d9da65c")
+	)
+	(wire
+		(pts
+			(xy 22.86 67.31) (xy 22.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f6cbb62-5eb2-450e-847f-c1a21aae3391")
+	)
+	(wire
+		(pts
+			(xy 97.79 96.52) (xy 115.57 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "447b8d26-5077-4e37-a645-54258514ec27")
+	)
+	(wire
+		(pts
+			(xy 97.79 35.56) (xy 115.57 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4608bfb2-613e-4051-9edf-f7e350e420e7")
+	)
+	(wire
+		(pts
+			(xy 22.86 33.02) (xy 41.91 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa525c1-aa66-40c8-a37e-b137031f3fbe")
+	)
+	(wire
+		(pts
+			(xy 143.51 130.81) (xy 147.32 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0adb99-486b-47e7-bc07-ef6c41e7b87c")
+	)
+	(wire
+		(pts
+			(xy 97.79 99.06) (xy 97.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eb9cd50-34cc-4525-a626-9a8242f25547")
+	)
+	(wire
+		(pts
+			(xy 22.86 64.77) (xy 41.91 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed140d9-345b-4766-86eb-4742fa24955d")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5852d2-9152-4c3a-b391-1e1f1d931c19")
+	)
+	(wire
+		(pts
+			(xy 69.85 130.81) (xy 77.47 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f9f7209-fd71-43ba-a89e-5f9dcf2e48a5")
+	)
+	(wire
+		(pts
+			(xy 69.85 133.35) (xy 74.93 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5788cf56-a031-449e-94c4-880115684e7b")
+	)
+	(wire
+		(pts
+			(xy 143.51 99.06) (xy 147.32 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579675e9-9cb6-4ec1-8ad6-e96afad61dac")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bae0991-8641-4783-b6a7-51e7dbd9cc80")
+	)
+	(wire
+		(pts
+			(xy 77.47 91.44) (xy 77.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc6d630-7a00-4309-a58b-ec2d8b8fe294")
+	)
+	(wire
+		(pts
+			(xy 69.85 35.56) (xy 77.47 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68c0c7e3-0cf1-4121-a092-66e553271fa8")
+	)
+	(wire
+		(pts
+			(xy 69.85 128.27) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "693ca9da-e168-41fe-9a86-086679174907")
+	)
+	(wire
+		(pts
+			(xy 97.79 67.31) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b53a3c5-6092-4e8d-aa7d-3b9c1eaf7663")
+	)
+	(wire
+		(pts
+			(xy 69.85 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff4f6e7-2249-49cb-aa90-cc4318f9dab6")
+	)
+	(wire
+		(pts
+			(xy 97.79 128.27) (xy 115.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7541accc-5eca-41df-bea4-f953f8fa7b1f")
+	)
+	(wire
+		(pts
+			(xy 143.51 101.6) (xy 144.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b50b0f-83db-4938-8938-935f091a708e")
+	)
+	(wire
+		(pts
+			(xy 97.79 33.02) (xy 97.79 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "764b1433-0309-489e-8909-d3c25b17c532")
+	)
+	(wire
+		(pts
+			(xy 77.47 27.94) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "778ff37e-a47d-48fc-9bc7-daa121f58c7e")
+	)
+	(wire
+		(pts
+			(xy 25.4 133.35) (xy 41.91 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "785ba606-0e56-4f34-82d4-2e83cab52fa3")
+	)
+	(wire
+		(pts
+			(xy 97.79 64.77) (xy 115.57 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9b597d-43c1-40cc-91ce-f71bd1c8dff6")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 144.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eb1a3e9-cf09-4a0a-baee-96298a1af991")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f06a5a8-07c0-444e-92bf-65122bbc1afd")
+	)
+	(wire
+		(pts
+			(xy 236.22 34.29) (xy 241.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bab757d-0d42-48e2-8bfc-326737651832")
+	)
+	(wire
+		(pts
+			(xy 143.51 69.85) (xy 144.78 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa69b51-eb11-4b5c-aaf7-04c6b7a4a3e8")
+	)
+	(wire
+		(pts
+			(xy 147.32 123.19) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "915fb680-a0bf-4e20-8f16-6031dbbb5c7d")
+	)
+	(wire
+		(pts
+			(xy 236.22 39.37) (xy 241.3 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ac6c10-742a-425c-8cf6-97ecbd7911d3")
+	)
+	(wire
+		(pts
+			(xy 25.4 101.6) (xy 41.91 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977ad273-62e7-4f29-a349-b0bf6003709c")
+	)
+	(wire
+		(pts
+			(xy 25.4 69.85) (xy 41.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "985435ae-b217-4d0f-a9c5-cd086223bd67")
+	)
+	(wire
+		(pts
+			(xy 97.79 33.02) (xy 115.57 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ec2f55-f553-4d66-9fd1-57b6db303a66")
+	)
+	(wire
+		(pts
+			(xy 22.86 96.52) (xy 41.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b503af9-1040-4f18-971b-5980ba106ea9")
+	)
+	(wire
+		(pts
+			(xy 185.42 41.91) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6d7d60-a49d-4c0a-9e94-c16f994cdc33")
+	)
+	(wire
+		(pts
+			(xy 147.32 27.94) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a023208b-e056-458a-9e17-abdd3ad89e72")
+	)
+	(wire
+		(pts
+			(xy 147.32 35.56) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d06fae-6ea4-4948-be25-509a313da61b")
+	)
+	(wire
+		(pts
+			(xy 22.86 128.27) (xy 41.91 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aab5faca-14c4-4077-bf50-d82dd0c0dce2")
+	)
+	(wire
+		(pts
+			(xy 236.22 36.83) (xy 241.3 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae42fbbe-12b6-403b-96cf-46a8b74ae0b3")
+	)
+	(wire
+		(pts
+			(xy 69.85 38.1) (xy 74.93 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4f572b-44f8-41b3-b015-878ee3dbd5c8")
+	)
+	(wire
+		(pts
+			(xy 25.4 38.1) (xy 41.91 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10bdbcd-9d06-409d-8d38-a21d290681c4")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b165d196-3301-470c-88c7-c3e065abf822")
+	)
+	(wire
+		(pts
+			(xy 143.51 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2f5dc84-e7fa-415e-8e4d-52919492b06c")
+	)
+	(wire
+		(pts
+			(xy 69.85 101.6) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b463f7ad-2ab6-44cd-b0f1-724a24fff1ab")
+	)
+	(wire
+		(pts
+			(xy 143.51 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b68be058-0272-4674-8737-a06a31118dc3")
+	)
+	(wire
+		(pts
+			(xy 97.79 35.56) (xy 97.79 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ac983c-adcc-4625-b2fe-0791635057b1")
+	)
+	(wire
+		(pts
+			(xy 143.51 35.56) (xy 147.32 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b91e9bfa-a72f-49aa-89af-c94e5ad198a6")
+	)
+	(wire
+		(pts
+			(xy 69.85 99.06) (xy 77.47 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc0d0a0-ad0f-4434-b984-c61be8bcb0aa")
+	)
+	(wire
+		(pts
+			(xy 22.86 35.56) (xy 22.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c194150e-3302-4c1f-8f47-2a8a67723698")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 147.32 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25c7abc-0b10-4ad8-b9c1-af6cb3d53f66")
+	)
+	(wire
+		(pts
+			(xy 147.32 67.31) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c667d56c-cb56-4b29-bafe-2abab4175f2e")
+	)
+	(wire
+		(pts
+			(xy 147.32 130.81) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9873469-cb43-4a8c-991f-5844fd39ab2e")
+	)
+	(wire
+		(pts
+			(xy 77.47 99.06) (xy 77.47 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d077174a-f7aa-46e5-8888-f5554e4faf67")
+	)
+	(wire
+		(pts
+			(xy 97.79 64.77) (xy 97.79 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d182506e-e730-4418-b131-f35a59f691ae")
+	)
+	(wire
+		(pts
+			(xy 236.22 31.75) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d355dc61-f664-49b2-876f-0d50f89e5d82")
+	)
+	(wire
+		(pts
+			(xy 22.86 99.06) (xy 22.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d36bc024-69c2-48e9-b56e-82adf29720f8")
+	)
+	(wire
+		(pts
+			(xy 22.86 64.77) (xy 22.86 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40b26dc-481f-469c-95dc-0b0bea2d71ca")
+	)
+	(wire
+		(pts
+			(xy 143.51 128.27) (xy 147.32 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d676e258-ca6a-4e84-84d9-f629400ac402")
+	)
+	(wire
+		(pts
+			(xy 22.86 35.56) (xy 41.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da133705-0dd5-4289-9569-ddc39c571a07")
+	)
+	(wire
+		(pts
+			(xy 22.86 99.06) (xy 41.91 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df893b07-3f92-495a-9506-806fcb56cf3a")
+	)
+	(wire
+		(pts
+			(xy 97.79 128.27) (xy 97.79 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b80afe-ab25-4e08-bdc3-d6432fd1ceea")
+	)
+	(wire
+		(pts
+			(xy 147.32 59.69) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6eb9486-a1e1-4b43-bc5c-85f329b15834")
+	)
+	(wire
+		(pts
+			(xy 143.51 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bf5e13-4d62-4578-ba56-31df0935529c")
+	)
+	(wire
+		(pts
+			(xy 143.51 64.77) (xy 147.32 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea53d7c1-ad0f-4b38-bafc-76529e17a950")
+	)
+	(wire
+		(pts
+			(xy 97.79 130.81) (xy 115.57 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb046a77-b4f6-4b6b-8adf-ba8f6608c610")
+	)
+	(wire
+		(pts
+			(xy 77.47 35.56) (xy 77.47 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba2564f-7d62-4944-a668-28f6737ed8e3")
+	)
+	(wire
+		(pts
+			(xy 185.42 44.45) (xy 190.5 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc44a57-6d7d-4ab7-8b4f-c76bfd6911cd")
+	)
+	(wire
+		(pts
+			(xy 99.06 38.1) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eff8fcb3-599d-4008-b25c-c16e12db9053")
+	)
+	(wire
+		(pts
+			(xy 77.47 130.81) (xy 77.47 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3b61522-a994-44e3-ad2b-7067ecc65872")
+	)
+	(wire
+		(pts
+			(xy 22.86 130.81) (xy 22.86 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6773da1-7a69-4370-a817-703f9ecb8182")
+	)
+	(wire
+		(pts
+			(xy 185.42 36.83) (xy 190.5 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f76d2d41-cf5e-49ef-b076-b9294f403cba")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fabf8c28-ea0f-43ee-b57e-54bced413b8a")
+	)
+	(wire
+		(pts
+			(xy 185.42 46.99) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac3c636-e2a2-4ca4-b242-b801694ad429")
+	)
+	(wire
+		(pts
+			(xy 22.86 128.27) (xy 22.86 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd265fec-9161-407c-8fde-dbafef66ee8e")
+	)
+	(wire
+		(pts
+			(xy 236.22 46.99) (xy 241.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe500f01-8b32-4e46-870c-0cdee9d37cdb")
+	)
+	(wire
+		(pts
+			(xy 77.47 59.69) (xy 77.47 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffeadbc8-f0fa-4771-8d53-3d7bb5075815")
+	)
+	(rectangle
+		(start 93.98 20.32)
+		(end 157.48 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33317bf4-34ee-49aa-bba8-a8ff01cf50f1)
+	)
+	(rectangle
+		(start 20.32 83.82)
+		(end 91.44 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3dc5f89a-7219-428c-af03-787e74d423e7)
+	)
+	(rectangle
+		(start 93.98 115.57)
+		(end 157.48 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4a7bd886-fae6-4588-a764-62890afa9e67)
+	)
+	(rectangle
+		(start 20.32 52.07)
+		(end 91.44 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60b6117d-984a-43a6-a8b2-bffdabb2e2d9)
+	)
+	(rectangle
+		(start 93.98 83.82)
+		(end 157.48 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b6f13e4d-a1f6-414e-aebf-819de02b4dcf)
+	)
+	(rectangle
+		(start 20.32 115.57)
+		(end 91.44 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid be2ba341-d9d3-48b9-ae36-64f32bcee8ae)
+	)
+	(rectangle
+		(start 93.98 52.07)
+		(end 157.48 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de0d3f5d-2e21-4d7f-9fbf-a934e99187c5)
+	)
+	(rectangle
+		(start 20.32 20.32)
+		(end 91.44 48.26)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ebe65981-6bda-46ed-8c46-10a4b8014cfb)
+	)
+	(text "PumpSeneShifter"
+		(exclude_from_sim no)
+		(at 27.94 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3d3f0f25-7d96-408d-89e7-f27263011028")
+	)
+	(text "PumpCtrlShifter"
+		(exclude_from_sim no)
+		(at 101.092 19.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "769dfd74-0c07-41ce-8cec-f1bc1cf0416e")
+	)
+	(text "ValveCtrl2Shifter"
+		(exclude_from_sim no)
+		(at 101.092 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8909a8db-df94-431f-9e38-6387c11db1cb")
+	)
+	(text "PumpSeneShifter"
+		(exclude_from_sim no)
+		(at 27.94 114.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b45ef235-fbbf-4c81-8141-d9f41560c4d4")
+	)
+	(text "FanCtrlShifter"
+		(exclude_from_sim no)
+		(at 101.092 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bd172286-a1de-41fb-8ee5-5d7189b6bd26")
+	)
+	(text "PumpSeneShifter"
+		(exclude_from_sim no)
+		(at 27.94 19.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8459237-cd8b-453a-bf15-ac2ca275b79f")
+	)
+	(text "ValveCtrl1Shifter"
+		(exclude_from_sim no)
+		(at 101.092 82.804 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea17782e-c83e-4f5b-a259-37006c31ed7a")
+	)
+	(label "ValveSense1_5v"
+		(at 25.4 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07a8dffa-b23c-471a-90e2-0c893ce4d92a")
+	)
+	(label "ValveSense2_5v"
+		(at 241.3 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d341a05-8d72-4440-9e5d-d59744d7d7c8")
+	)
+	(label "PumpSense_3v3"
+		(at 74.93 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "105915eb-a943-4ff4-a47e-9c71afee43a4")
+	)
+	(label "ValveCtrl2_5v"
+		(at 144.78 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15193ebc-cfce-43fd-9920-e7ac74eaecc3")
+	)
+	(label "ValveCtrl1_3v3"
+		(at 185.42 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "16a54f04-439d-410f-9c8f-d28f7a45a474")
+	)
+	(label "PumpSense_3v3"
+		(at 185.42 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e40bcdf-3661-447a-aec3-f46c1ba3450f")
+	)
+	(label "PumpSense_5v"
+		(at 241.3 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2391b1c2-c3d3-4df0-8c80-5d3f8b4fdbae")
+	)
+	(label "FanSense_5v"
+		(at 25.4 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "41b56bb0-6e98-4257-8c03-8d399d6b0d77")
+	)
+	(label "FanCtrl_3v3"
+		(at 185.42 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42e822e2-1ce2-4cd9-ad31-7c2d0bd94b6c")
+	)
+	(label "ValveCtrl2_3v3"
+		(at 99.06 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "514934c0-633f-492b-9044-f546ad2dcc55")
+	)
+	(label "ValveCtrl1_3v3"
+		(at 99.06 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55678290-a0f8-47da-832a-4278cc3bbb36")
+	)
+	(label "ValveSense2_3v3"
+		(at 74.93 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60b11fbd-0c6f-4c92-b5e7-671a05c28dc9")
+	)
+	(label "FanCtrl_5v"
+		(at 241.3 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "634831d3-d8de-4be2-b703-01a372c840af")
+	)
+	(label "PumpCtrl_5v"
+		(at 241.3 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76a515b6-de95-43eb-91e9-53b5b68dd80f")
+	)
+	(label "FanCtrl_3v3"
+		(at 99.06 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78ae65a2-5e54-4381-9d93-a56b31d887ea")
+	)
+	(label "FanSense_3v3"
+		(at 74.93 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "80412807-613c-4cc2-86d6-19c32feca1c0")
+	)
+	(label "ValveSense1_5v"
+		(at 241.3 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87144e2e-e632-47bb-8430-dfc560e946d7")
+	)
+	(label "PumpCtrl_3v3"
+		(at 99.06 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a22cdfb9-1b78-4f43-96ea-bf4ca7afe58e")
+	)
+	(label "ValveCtrl2_5v"
+		(at 241.3 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a32b97f0-6d45-4c1c-856a-e0491b154f31")
+	)
+	(label "ValveCtrl2_3v3"
+		(at 185.42 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a33ff49c-bb00-462e-8441-43ad4d9f993e")
+	)
+	(label "ValveCtrl1_5v"
+		(at 241.3 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9164bf4-c667-4a2a-b5f9-bafef2905d6e")
+	)
+	(label "FanSense_5v"
+		(at 241.3 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab595caa-7080-40e6-aa9a-9db6917992df")
+	)
+	(label "ValveCtrl1_5v"
+		(at 144.78 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abea2bdf-61eb-48cc-9a7f-f25f712067d4")
+	)
+	(label "ValveSense2_5v"
+		(at 25.4 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af6bd203-da72-4bf6-aa1e-4ea464766c4e")
+	)
+	(label "ValveSense1_3v3"
+		(at 74.93 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9351c6c-5460-4304-9a13-eb9fa29961dc")
+	)
+	(label "PumpCtrl_5v"
+		(at 144.78 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba3d5f3f-94e8-4c2f-8010-fcaea7a54e29")
+	)
+	(label "PumpSense_5v"
+		(at 25.4 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bb8b3f6c-000d-46e7-b6c3-e08d64c60430")
+	)
+	(label "FanCtrl_5v"
+		(at 144.78 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cde27df0-8197-46df-bc78-750466f8d9e0")
+	)
+	(label "FanSense_3v3"
+		(at 185.42 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e77db1ab-b4a0-41d3-9715-c9468bc4902e")
+	)
+	(label "ValveSense2_3v3"
+		(at 185.42 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e97ed17b-f746-4dd4-814a-e475271c169b")
+	)
+	(label "ValveSense1_3v3"
+		(at 185.42 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f261ba83-2da1-4c1e-aba4-bf1fda76fc16")
+	)
+	(label "PumpCtrl_3v3"
+		(at 185.42 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fcb3c52f-bee6-4a1a-a59a-67774283327d")
+	)
+	(hierarchical_label "ValveCtrl2_3v3"
+		(shape input)
+		(at 190.5 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09e2dcfd-8c37-4c8f-8c75-ab3aed6e1866")
+	)
+	(hierarchical_label "ValveCtrl1_5v"
+		(shape input)
+		(at 236.22 44.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0f91e8ab-ee1d-438a-92b5-08bf212bce14")
+	)
+	(hierarchical_label "ValveCtrl2_5v"
+		(shape input)
+		(at 236.22 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "109c6c7c-ea0e-4560-a43c-e27774f8ee77")
+	)
+	(hierarchical_label "PumpSense_5v"
+		(shape input)
+		(at 236.22 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2170d242-57bc-4ce2-9249-2e893d4b702a")
+	)
+	(hierarchical_label "FanCtrl_5v"
+		(shape input)
+		(at 236.22 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d4dd876-f764-40d1-95d3-7216f576f606")
+	)
+	(hierarchical_label "FanSense_5v"
+		(shape input)
+		(at 236.22 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4691397b-7c37-490f-9bf9-84368c9fe9f2")
+	)
+	(hierarchical_label "ValveSense2_5v"
+		(shape input)
+		(at 236.22 31.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69b001a3-5378-4507-88a0-757bd12a3b11")
+	)
+	(hierarchical_label "PumpCtrl_5v"
+		(shape input)
+		(at 236.22 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b2537cf-d182-4b17-8f50-43d834a19ceb")
+	)
+	(hierarchical_label "ValveSense1_5v"
+		(shape input)
+		(at 236.22 34.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7c57e73d-ae44-4474-9df2-e5a8ebacff7f")
+	)
+	(hierarchical_label "ValveSense1_3v3"
+		(shape input)
+		(at 190.5 46.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cf9a0f7-4d8b-41d0-be79-9356463becab")
+	)
+	(hierarchical_label "FanSense_3v3"
+		(shape input)
+		(at 190.5 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98ee7a6a-da61-42ff-88cc-5b05a35a0cab")
+	)
+	(hierarchical_label "FanCtrl_3v3"
+		(shape input)
+		(at 190.5 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c2c6ae1-5b44-44ad-9f0c-b9d58dd26e8b")
+	)
+	(hierarchical_label "ValveCtrl1_3v3"
+		(shape input)
+		(at 190.5 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9e6010e7-d989-4c16-948b-7f7603af0365")
+	)
+	(hierarchical_label "PumpSense_3v3"
+		(shape input)
+		(at 190.5 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5f60ed6-a316-429f-827a-d45b6eecc735")
+	)
+	(hierarchical_label "ValveSense2_3v3"
+		(shape input)
+		(at 190.5 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1ada6b5-9cbc-4339-83d0-b4975478d897")
+	)
+	(hierarchical_label "PumpCtrl_3v3"
+		(shape input)
+		(at 190.5 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4f5e602-ba62-4acf-95dc-fd8b84a4c660")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11367ecf-3de8-4d9f-bcba-d74f19aec4b2")
+		(property "Reference" "#PWR024"
+			(at 97.79 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32d29345-2735-4b60-9716-db9de72b399b")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2055886b-e92d-452a-994c-24f97d4f0f70")
+		(property "Reference" "#PWR012"
+			(at 22.86 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de53e8f2-de41-4733-9faf-96259a1d46e6")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a01d27-eedd-4fdc-a8b0-775f62b08d00")
+		(property "Reference" "#PWR022"
+			(at 97.79 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29e05228-7486-4cd7-ae94-9a61a7c2979d")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2410b8fc-91f4-4ef4-8e5e-cca0084b4c08")
+		(property "Reference" "#PWR026"
+			(at 97.79 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e65ec1bc-9d7e-4a60-94ad-e6ae08f145d4")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc3602b-e24e-49f8-8bdc-e1e0ffffad1d")
+		(property "Reference" "#PWR030"
+			(at 147.32 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f7ff6b7-4ab2-4cc1-a321-da469c66638b")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 115.57 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d00d379-30a4-4cc0-b1bb-3a4a9aede972")
+		(property "Reference" "IC6"
+			(at 129.54 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 129.54 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 139.7 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 139.7 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 139.7 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.7 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 139.7 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "7d2540dd-4a5f-4294-bf7b-45d330532e24")
+		)
+		(pin "3"
+			(uuid "0d731cd8-80ac-4770-9ef4-1803e9198357")
+		)
+		(pin "4"
+			(uuid "35b04a67-56ee-4c6a-8d78-a507d0191f56")
+		)
+		(pin "1"
+			(uuid "7952e70a-cf97-4f25-879a-f8a4ec38facc")
+		)
+		(pin "2"
+			(uuid "2253df41-a703-40d8-b9af-9d3b0667ed83")
+		)
+		(pin "5"
+			(uuid "e8358469-01a0-4187-a8fe-97cb3acfc9c3")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33b6e266-5a0f-4ad6-b98b-39f504f21aa3")
+		(property "Reference" "#PWR010"
+			(at 22.86 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24404644-e75a-4a0f-9bd7-62c087f89644")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4843c982-890d-4ef6-9fd4-f78bfe25eed2")
+		(property "Reference" "#PWR09"
+			(at 22.86 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82c3cb9c-707d-4920-a18d-0dcccd5be5e8")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "530798fe-89e5-4376-8c47-38bb6b9ca6f2")
+		(property "Reference" "#PWR018"
+			(at 77.47 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04230cb2-2ee0-4266-bcea-d7353e40f768")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 97.79 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5baa4e03-7820-4b75-8df7-157177690069")
+		(property "Reference" "#PWR025"
+			(at 97.79 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 97.79 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66bc2e76-8275-4dd0-8c47-87e09db8a608")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6dde5a80-ed95-4094-8b7c-0d285c72f630")
+		(property "Reference" "#PWR029"
+			(at 147.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc8b10ff-2a25-4781-a4a7-1ff1e9f3c38c")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b8986f-f54d-40df-8a59-1ade85f64fe2")
+		(property "Reference" "#PWR08"
+			(at 22.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb53df22-6b26-41c9-ac90-7034eb0e8fb7")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 22.86 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837cd252-b181-428a-a1ad-1be45f49093e")
+		(property "Reference" "#PWR014"
+			(at 22.86 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 22.86 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bed7fd6d-aa76-4f5b-9241-98517fca3df2")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 115.57 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85f6ae5c-3f02-4289-adad-08708bf59f91")
+		(property "Reference" "IC5"
+			(at 129.54 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 129.54 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 139.7 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 139.7 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 139.7 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.7 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 139.7 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.7 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 139.7 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "85ebc708-79ec-46f8-8f4a-973ec482ac62")
+		)
+		(pin "3"
+			(uuid "b9fbfcaa-d991-4d70-9d7b-93a138231e1e")
+		)
+		(pin "4"
+			(uuid "ecda4131-db35-4a2a-8f95-60350e7a438d")
+		)
+		(pin "1"
+			(uuid "3192c8db-0313-41c1-b3f5-6cef8dd49755")
+		)
+		(pin "2"
+			(uuid "825e6ce3-5c03-49c9-afc6-cb42b3e70187")
+		)
+		(pin "5"
+			(uuid "1d288deb-83de-4dc8-b1b5-ee2392982b18")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 97.79 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96401894-fa27-4771-8625-a265a7ad6e6a")
+		(property "Reference" "#PWR020"
+			(at 97.79 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf82560-828d-4ac2-acc3-bf62ec3d8f01")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98a9ccb2-1a5a-4593-9235-d6b17671aa8c")
+		(property "Reference" "#PWR028"
+			(at 147.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f5a3cdd-2976-4807-891b-bee91d0aee5b")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ddffa1e-e001-44e7-be6c-930f8374bee1")
+		(property "Reference" "#PWR016"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68fc2e8e-66cb-4cbb-90ba-6fa49d84eba7")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 115.57 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f2d1cb5-3c12-4937-b641-25de71541013")
+		(property "Reference" "IC7"
+			(at 129.54 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 129.54 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 139.7 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 139.7 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 139.7 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 139.7 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.7 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "a510e810-f708-4329-b9cc-239d39b41a36")
+		)
+		(pin "3"
+			(uuid "9bd7d2db-bd9f-4d65-b973-805d1fa1ea52")
+		)
+		(pin "4"
+			(uuid "88355458-d2c1-4fe1-9603-c7d03f69100a")
+		)
+		(pin "1"
+			(uuid "4003531a-2feb-4c7f-9ab6-7835e2db1116")
+		)
+		(pin "2"
+			(uuid "092f2c27-e239-40d0-a4b2-53841ec61fb0")
+		)
+		(pin "5"
+			(uuid "36dd7eca-68c7-428f-a689-bca57b17ef08")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 97.79 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a44f7478-922c-4b32-ac31-b6eaf10c104e")
+		(property "Reference" "#PWR019"
+			(at 97.79 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 97.79 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5074e74-1ef1-4777-9eba-d202bf9d0265")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 97.79 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b22d875b-9ec3-433b-a900-fb544362080e")
+		(property "Reference" "#PWR023"
+			(at 97.79 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 97.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d50b70f-b0ab-4fb8-a052-e175ebcc6aed")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 41.91 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2e741b6-08f4-4aca-b34d-10b5909c6a11")
+		(property "Reference" "IC4"
+			(at 55.88 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 55.88 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 66.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 66.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 66.04 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 66.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 66.04 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 66.04 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 66.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "0c7511ab-ed60-4e2e-9a98-f4d953c16cc0")
+		)
+		(pin "3"
+			(uuid "1755cff0-96b8-42ad-ac99-f09238bf07cb")
+		)
+		(pin "4"
+			(uuid "1447f336-2476-4206-bd4b-097a75ea57dd")
+		)
+		(pin "1"
+			(uuid "6c45c2cf-5779-46b3-b70f-8ee9968673c4")
+		)
+		(pin "2"
+			(uuid "9cd30f6e-27c3-4732-952b-ae7f86ec8f8f")
+		)
+		(pin "5"
+			(uuid "0aedd2d3-0c94-45ff-ad3a-e46c5fd54b13")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 41.91 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b40c2820-32a8-4063-921d-070bdecc1d00")
+		(property "Reference" "IC3"
+			(at 55.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 55.88 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 66.04 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 66.04 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 66.04 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 66.04 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "b65f601f-b363-4fd5-b061-f23a0434ff32")
+		)
+		(pin "3"
+			(uuid "55470143-7b72-43e9-b161-d7cb8b2180c1")
+		)
+		(pin "4"
+			(uuid "d3ee466e-9fba-49eb-bb06-3a09247ba67c")
+		)
+		(pin "1"
+			(uuid "0a75282a-e2d6-4702-89e4-3e8b3337ebae")
+		)
+		(pin "2"
+			(uuid "01fa4615-8f58-4e8d-9385-fac6c4f815b9")
+		)
+		(pin "5"
+			(uuid "0e64754a-499a-41f6-9255-ec4f4e6af768")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd91fd44-f74d-44ea-8af4-df47b671fcdf")
+		(property "Reference" "#PWR017"
+			(at 77.47 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78a834fa-03fa-4301-84fc-bb06c2bd3bf0")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c56ba1e6-8ba2-4011-b7b0-83ec8a187472")
+		(property "Reference" "#PWR013"
+			(at 22.86 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1497fd95-d700-4d4e-ad77-32ce66f854f3")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c84c7979-ae6a-4c79-9e92-9075e0581ff3")
+		(property "Reference" "#PWR011"
+			(at 22.86 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8f574f5-02a2-4fbc-bbf6-22746e59ba1f")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 41.91 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbcc5c60-7b13-4966-9d84-3d2a5a1a64da")
+		(property "Reference" "IC2"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 55.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 66.04 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 66.04 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 66.04 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 66.04 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 66.04 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "27dc3413-1c57-47ad-aaf8-2b232c0d30dc")
+		)
+		(pin "3"
+			(uuid "dfaf6ac4-fafc-460b-8b85-423728370559")
+		)
+		(pin "4"
+			(uuid "2e0f1053-528f-4e58-ad3d-1c555fa9eaa7")
+		)
+		(pin "1"
+			(uuid "14dba18b-6f2c-4cb9-a3de-9324d38b4c30")
+		)
+		(pin "2"
+			(uuid "93116e3a-bead-423d-abc0-a7d1df0605d9")
+		)
+		(pin "5"
+			(uuid "0dda0761-7e16-4a3f-9acf-542dcb0c5d6f")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 115.57 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1ce89b3-fc67-4591-8d01-d4302b9e70b7")
+		(property "Reference" "IC8"
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 129.54 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 139.7 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 139.7 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 139.7 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 139.7 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 139.7 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "f115dde0-6f6a-47b4-bde2-f9f8bf5696a1")
+		)
+		(pin "3"
+			(uuid "afa26b2d-96ae-4c38-ba8d-8d7c66fb4465")
+		)
+		(pin "4"
+			(uuid "eb3ea0c2-4942-4d2e-b0b1-a51bcb3a37fa")
+		)
+		(pin "1"
+			(uuid "80cac73a-672a-41d7-8eb8-665cc30f9f5d")
+		)
+		(pin "2"
+			(uuid "b634eeeb-8f7d-4f49-9608-dbb67dcbf57c")
+		)
+		(pin "5"
+			(uuid "e00ec7a0-234f-4b51-acfd-2ae71a239a09")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 97.79 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d839b52a-7b21-4aa9-b5c3-b07d28f9772b")
+		(property "Reference" "#PWR021"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc7050eb-afe5-4950-b13e-203a7f85ab86")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_symbols:TXU0101DBVR")
+		(at 41.91 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd98ffbc-9364-49b1-b78f-94a58338ee64")
+		(property "Reference" "IC1"
+			(at 55.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TXU0101DBVR"
+			(at 55.88 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "custom_footprints:TXU0101DBVR"
+			(at 66.04 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txu0101.pdf?ts=1669130963626&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0101"
+			(at 66.04 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Translation - Voltage Levels Single channel fixed-direction level shifter"
+			(at 66.04 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.45"
+			(at 66.04 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-TXU0101DBVR"
+			(at 66.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TXU0101DBVR?qs=IPgv5n7u5QaPPuDmRaldJw%3D%3D"
+			(at 66.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 66.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TXU0101DBVR"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "393d1974-c743-4409-8154-d474132f8544")
+		)
+		(pin "3"
+			(uuid "0d01c912-0a9a-426b-ae34-f8c4e36ddaa3")
+		)
+		(pin "4"
+			(uuid "322d91b9-2b7b-444f-9d43-fd0c9d2ae1ff")
+		)
+		(pin "1"
+			(uuid "5838fc56-31ac-4ae4-b587-acd723fc9828")
+		)
+		(pin "2"
+			(uuid "a1f9ac03-4667-4cfc-b5c0-f76acc7ebf98")
+		)
+		(pin "5"
+			(uuid "17e38675-30fe-43eb-8195-eea4d6297f42")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df563bdf-b4b5-4839-a53d-55331868b115")
+		(property "Reference" "#PWR015"
+			(at 77.47 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a414645c-a1b4-46cf-90a1-22df1315e585")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 22.86 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1892739-bd44-471f-8904-ec91e7a8abf9")
+		(property "Reference" "#PWR04"
+			(at 22.86 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 22.86 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 22.86 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1eed80d-2a6c-416a-a43f-d26ce64582b5")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 147.32 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff087e96-ad48-465d-a111-319269000d77")
+		(property "Reference" "#PWR027"
+			(at 147.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 147.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 147.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2903ee2f-4543-4cba-9578-f028f4bd1b41")
+		)
+		(instances
+			(project "playground"
+				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/74161ce2-c20f-4d1a-83e7-2f0e6893be4f"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
