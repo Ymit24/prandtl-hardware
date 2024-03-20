@@ -1676,9 +1676,9 @@
 		)
 		(uuid ebe65981-6bda-46ed-8c46-10a4b8014cfb)
 	)
-	(text "PumpSeneShifter"
+	(text "ValveSense1Shifter"
 		(exclude_from_sim no)
-		(at 27.94 82.804 0)
+		(at 28.956 82.804 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1706,9 +1706,9 @@
 		)
 		(uuid "8909a8db-df94-431f-9e38-6387c11db1cb")
 	)
-	(text "PumpSeneShifter"
+	(text "ValveSense2Shifter"
 		(exclude_from_sim no)
-		(at 27.94 114.554 0)
+		(at 28.702 114.554 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1726,7 +1726,7 @@
 		)
 		(uuid "bd172286-a1de-41fb-8ee5-5d7189b6bd26")
 	)
-	(text "PumpSeneShifter"
+	(text "PumpSenseShifter"
 		(exclude_from_sim no)
 		(at 27.94 19.304 0)
 		(effects
@@ -1745,6 +1745,16 @@
 			)
 		)
 		(uuid "ea17782e-c83e-4f5b-a259-37006c31ed7a")
+	)
+	(text "FanSenseShifter"
+		(exclude_from_sim no)
+		(at 27.686 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eabc9e6a-e736-456f-866b-9aecd2ab48db")
 	)
 	(label "ValveSense1_5v"
 		(at 25.4 101.6 0)

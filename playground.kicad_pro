@@ -601,6 +601,14 @@
       {
         "netclass": "POWER_SIGNAL_12V",
         "pattern": "/*_12v"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/LDO_POWER_IN"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/LDO_POWER_OUT"
       }
     ]
   },
@@ -724,10 +732,6 @@
     [
       "74161ce2-c20f-4d1a-83e7-2f0e6893be4f",
       "level_shifters"
-    ],
-    [
-      "4216f952-6e86-4114-ae98-857a9668382f",
-      "Power Regulation"
     ]
   ],
   "text_variables": {}

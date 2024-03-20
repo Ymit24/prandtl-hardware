@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FC-135_32.7680KA-A5
+D Crystal 0.032768MHz +/-20ppm (Tol) 12.5pF FUND 70000Ohm 2-Pin CSMD T/R
+K
+F https://support.epson.biz/td/api/doc_check.php?dl=brief_FC-135&lang=en
+$ENDCMP
+#
+#End Doc Library
