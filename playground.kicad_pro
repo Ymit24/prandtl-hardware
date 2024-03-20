@@ -732,6 +732,10 @@
     [
       "74161ce2-c20f-4d1a-83e7-2f0e6893be4f",
       "level_shifters"
+    ],
+    [
+      "8488c7dd-ee78-4e1e-bc44-9e5c6420ed52",
+      "LEDs"
     ]
   ],
   "text_variables": {}
