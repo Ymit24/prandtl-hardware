@@ -771,6 +771,12 @@
 		(uuid "3d78d0db-ce5c-4607-9f9b-2ffad6cc49ea")
 	)
 	(junction
+		(at 208.28 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c28828f-2407-4c56-a211-72ef5c45c370")
+	)
+	(junction
 		(at 41.91 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -871,6 +877,16 @@
 			(type default)
 		)
 		(uuid "0909dee6-bcc2-42b9-9a4d-2850883ac5c5")
+	)
+	(wire
+		(pts
+			(xy 208.28 41.91) (xy 212.09 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2477af-8416-4aca-851d-620d0e7c2530")
 	)
 	(wire
 		(pts
@@ -994,7 +1010,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 41.91) (xy 208.28 38.1)
+			(xy 208.28 43.18) (xy 208.28 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1264,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 49.53) (xy 208.28 50.8)
+			(xy 208.28 50.8) (xy 208.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1301,6 +1317,16 @@
 			(type default)
 		)
 		(uuid "e5fc3406-de91-4ff9-8cf4-79220799efd5")
+	)
+	(wire
+		(pts
+			(xy 208.28 38.1) (xy 208.28 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9857aed-849d-4e43-aaa4-b5891d6c851c")
 	)
 	(wire
 		(pts
@@ -1475,6 +1501,17 @@
 			(justify left bottom)
 		)
 		(uuid "7ab7b8bc-a73d-400b-9c14-a94f9cbbdf26")
+	)
+	(label "12v_PWD_LED_VOL_DIV"
+		(at 212.09 41.91 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e15d222-a994-4078-b9dd-ac63940631cf")
 	)
 	(label "VALVE_CLOSED_IND_LED_5v"
 		(at 52.07 97.79 0)
@@ -2609,7 +2646,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 45.72 0)
+		(at 208.28 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2618,7 +2655,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cb1f934-5734-434b-afaf-5b3257e504fa")
 		(property "Reference" "R7"
-			(at 210.82 44.4499 0)
+			(at 210.82 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2627,7 +2664,7 @@
 			)
 		)
 		(property "Value" "470R"
-			(at 210.82 46.9899 0)
+			(at 210.82 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2636,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 206.502 45.72 90)
+			(at 206.502 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 45.72 0)
+			(at 208.28 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2654,7 +2691,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 208.28 45.72 0)
+			(at 208.28 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3125,7 +3162,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 208.28 50.8 0)
+		(at 208.28 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3134,7 +3171,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf9b3640-bf8f-4ca1-8180-65149e589670")
 		(property "Reference" "#PWR049"
-			(at 208.28 57.15 0)
+			(at 208.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3143,7 +3180,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 208.28 55.88 0)
+			(at 208.28 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 208.28 50.8 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3160,7 +3197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 208.28 50.8 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3169,7 +3206,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 208.28 50.8 0)
+			(at 208.28 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
