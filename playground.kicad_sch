@@ -4677,6 +4677,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c476204-043c-4acf-9a93-8771fd249f79")
+	)
+	(wire
+		(pts
 			(xy 105.41 147.32) (xy 107.95 147.32)
 		)
 		(stroke
@@ -4754,6 +4764,16 @@
 			(type default)
 		)
 		(uuid "15fff6a1-f128-4dea-b3e3-803acc4257ed")
+	)
+	(wire
+		(pts
+			(xy 198.12 116.84) (xy 200.66 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d47866-a608-47fb-b278-c6597317b1d3")
 	)
 	(wire
 		(pts
@@ -4964,6 +4984,16 @@
 			(type default)
 		)
 		(uuid "320f3bfa-bf74-45af-a6d1-e9191233784c")
+	)
+	(wire
+		(pts
+			(xy 198.12 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "327c15db-b95f-4bbc-8c09-2eb181c8a831")
 	)
 	(wire
 		(pts
@@ -6427,6 +6457,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 119.38) (xy 200.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc726492-8ce9-42ff-8a1c-869561ffb519")
+	)
+	(wire
+		(pts
 			(xy 144.78 68.58) (xy 147.32 68.58)
 		)
 		(stroke
@@ -6710,6 +6750,18 @@
 		(uuid 05d88fb3-a4d5-4f56-86c2-5c42328aff39)
 	)
 	(rectangle
+		(start 182.245 109.22)
+		(end 220.98 127)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 35a1166d-e692-4ec9-a425-9456d83811ec)
+	)
+	(rectangle
 		(start 125.476 15.748)
 		(end 204.216 49.784)
 		(stroke
@@ -6838,6 +6890,16 @@
 			)
 		)
 		(uuid "0d7bacd7-58ec-41a6-b3a5-da63af0dcbaa")
+	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 184.404 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e013d5d-cfb2-4181-a259-11db38116e8f")
 	)
 	(text "Valve Controller"
 		(exclude_from_sim no)
@@ -7092,6 +7154,17 @@
 			(justify right bottom)
 		)
 		(uuid "0dee002c-f813-48c3-822f-6749e8abd1ba")
+	)
+	(label "ValveSense2_5v"
+		(at 198.12 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f9ef95c-b088-401c-93cc-020af36bb9c0")
 	)
 	(label "USB_D+"
 		(at 68.58 39.37 0)
@@ -7513,6 +7586,17 @@
 		)
 		(uuid "9b9c99c3-5689-46b7-92f0-c5734bbf1a2e")
 	)
+	(label "PumpCtrl_5v"
+		(at 198.12 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9f81f5f8-16c2-4207-9bb3-4943d1af64fd")
+	)
 	(label "ValveSense2_5v"
 		(at 105.41 149.86 180)
 		(fields_autoplaced yes)
@@ -7567,6 +7651,17 @@
 			(justify left bottom)
 		)
 		(uuid "b56d90b6-9183-4d75-a249-29714b62e029")
+	)
+	(label "ValveSense1_5v"
+		(at 198.12 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd567405-bda0-4f3b-820d-92ebf54bc8af")
 	)
 	(label "XIN32"
 		(at 24.13 90.17 0)
@@ -7646,7 +7741,7 @@
 		(uuid "d9ded745-7205-4217-b396-387d8d3772da")
 	)
 	(label "ValveOutput2_12v"
-		(at 144.78 83.82 180)
+		(at 144.78 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7711,8 +7806,19 @@
 		)
 		(uuid "f845ba85-3624-4a01-bb2b-e689a97aa0fe")
 	)
+	(label "FanCtrl_5v"
+		(at 198.12 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe329b45-c0e2-4627-b0fb-32cf5b50faac")
+	)
 	(label "ValveOutput1_12v"
-		(at 144.78 71.12 180)
+		(at 144.78 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13513,8 +13619,8 @@
 		)
 	)
 	(sheet
-		(at 197.358 93.472)
-		(size 44.196 31.496)
+		(at 200.66 113.03)
+		(size 17.78 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -13525,7 +13631,7 @@
 		)
 		(uuid "8488c7dd-ee78-4e1e-bc44-9e5c6420ed52")
 		(property "Sheetname" "LEDs"
-			(at 197.358 92.7604 0)
+			(at 200.66 112.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13534,13 +13640,53 @@
 			)
 		)
 		(property "Sheetfile" "leds.kicad_sch"
-			(at 197.358 125.5526 0)
+			(at 200.66 123.7746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 			)
+		)
+		(pin "ValveSense1_5v" input
+			(at 200.66 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3ca4b50b-73b7-43e6-949d-9c1bf5991592")
+		)
+		(pin "ValveSense2_5v" input
+			(at 200.66 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2b9b77d-8eef-48c3-a2fe-c50203201a65")
+		)
+		(pin "PumpPwm_5v" input
+			(at 200.66 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b36b6be7-d0fd-43e6-8e18-8a8754a3e2f7")
+		)
+		(pin "FanPwm_5v" input
+			(at 200.66 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "158f61e8-fce7-4422-9c68-ea104bb51409")
 		)
 		(instances
 			(project "playground"

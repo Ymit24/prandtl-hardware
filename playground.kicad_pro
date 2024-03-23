@@ -478,7 +478,7 @@
         "name": "POWER",
         "pcb_color": "rgb(255, 13, 0)",
         "schematic_color": "rgb(255, 0, 41)",
-        "track_width": 0.5,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
