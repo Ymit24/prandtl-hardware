@@ -478,7 +478,7 @@
         "name": "POWER",
         "pcb_color": "rgb(255, 13, 0)",
         "schematic_color": "rgb(255, 0, 41)",
-        "track_width": 0.3,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -495,7 +495,7 @@
         "name": "POWER_SIGNAL_12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(0, 255, 49)",
-        "track_width": 0.35,
+        "track_width": 0.5,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6

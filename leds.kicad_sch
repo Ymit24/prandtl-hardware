@@ -783,22 +783,10 @@
 		(uuid "5521b5af-24e5-4ff1-83eb-0505f6051292")
 	)
 	(junction
-		(at 129.54 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "640d3203-c140-4d7d-a293-78196cdcd771")
-	)
-	(junction
 		(at 41.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7993ba40-7505-49e7-b1c2-6c3ed649d877")
-	)
-	(junction
-		(at 41.91 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a0dba66-8296-443d-800a-e0eca8a1133d")
 	)
 	(junction
 		(at 41.91 45.72)
@@ -807,22 +795,10 @@
 		(uuid "85475386-8b2d-4aaa-9117-d3f34574922c")
 	)
 	(junction
-		(at 41.91 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91214483-d6d7-4d2d-aa7b-543f310290fd")
-	)
-	(junction
 		(at 41.91 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab7189c7-4a31-4fcd-8afc-f52dd2fe3e39")
-	)
-	(junction
-		(at 129.54 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aca7aeac-53c0-4343-b2b6-38a294b5ad51")
 	)
 	(junction
 		(at 181.61 46.99)
@@ -920,26 +896,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 64.77) (xy 129.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1990792c-bc22-4346-8233-0034ec3154ce")
-	)
-	(wire
-		(pts
-			(xy 41.91 118.11) (xy 44.45 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19e774f3-e838-4ecc-94cc-b4157652b270")
-	)
-	(wire
-		(pts
 			(xy 208.28 38.1) (xy 205.74 38.1)
 		)
 		(stroke
@@ -1000,16 +956,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 55.88) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3edf94d6-e518-4cbc-9c7c-ea28037d4f14")
-	)
-	(wire
-		(pts
 			(xy 208.28 43.18) (xy 208.28 41.91)
 		)
 		(stroke
@@ -1060,16 +1006,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 107.95) (xy 41.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a486c27-97c3-4ee1-9f61-f88982fe317b")
-	)
-	(wire
-		(pts
 			(xy 41.91 86.36) (xy 41.91 97.79)
 		)
 		(stroke
@@ -1107,16 +1043,6 @@
 			(type default)
 		)
 		(uuid "7df7cdb1-a614-46a0-aeac-a58c80c31985")
-	)
-	(wire
-		(pts
-			(xy 114.3 55.88) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e1ce626-6d28-4499-bbad-4d7dc4fa389a")
 	)
 	(wire
 		(pts
@@ -1190,36 +1116,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 46.99) (xy 129.54 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a718683-78f3-4097-ba60-6f6e491678d7")
-	)
-	(wire
-		(pts
-			(xy 129.54 55.88) (xy 129.54 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9daf9383-8064-470a-ba73-8729219d89e6")
-	)
-	(wire
-		(pts
-			(xy 41.91 118.11) (xy 41.91 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9feb70a5-c857-4c75-87ae-7b76347b9e11")
-	)
-	(wire
-		(pts
 			(xy 102.87 88.9) (xy 106.68 88.9)
 		)
 		(stroke
@@ -1240,23 +1136,13 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 124.46) (xy 41.91 118.11)
+			(xy 41.91 97.79) (xy 41.91 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "af4df8ac-0251-4bfb-aab1-8a224430d671")
-	)
-	(wire
-		(pts
-			(xy 41.91 107.95) (xy 44.45 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af64004e-89f2-486f-a785-18df6a6abba2")
 	)
 	(wire
 		(pts
@@ -1287,16 +1173,6 @@
 			(type default)
 		)
 		(uuid "bcae1c30-d7e0-4361-b9dc-5410b8b90061")
-	)
-	(wire
-		(pts
-			(xy 114.3 64.77) (xy 116.84 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcb297e7-6707-4952-95cb-321930669095")
 	)
 	(wire
 		(pts
@@ -1390,7 +1266,7 @@
 	)
 	(rectangle
 		(start 33.02 27.94)
-		(end 78.74 133.35)
+		(end 78.74 110.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -1454,17 +1330,6 @@
 		)
 		(uuid "e9fcc991-52c9-4cb4-98c3-cc40dce15a76")
 	)
-	(label "GENERAL_BOARD_1_IND_LED_3v3"
-		(at 52.07 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "08b87dcf-7676-4841-baa4-0f3d9ee1f025")
-	)
 	(label "12v_PWR_IND_LED"
 		(at 219.71 38.1 0)
 		(fields_autoplaced yes)
@@ -1520,17 +1385,6 @@
 		)
 		(uuid "2c758627-ece3-4b57-8d83-8280bb86bb8f")
 	)
-	(label "GENERAL_BOARD_2_IND_LED_3v3"
-		(at 52.07 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "33df61f6-4413-43b4-9aef-369568d6aee1")
-	)
 	(label "PUMP_PWM_IND_LED_5v"
 		(at 102.87 88.9 180)
 		(fields_autoplaced yes)
@@ -1574,17 +1428,6 @@
 			(justify right bottom)
 		)
 		(uuid "567c32c8-edfb-4893-8ae0-d54cb8068b29")
-	)
-	(label "GENERAL_BOARD_1_IND_LED_3v3"
-		(at 114.3 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "67ca5b53-f62b-490d-8788-1702fda3ba61")
 	)
 	(label "ValveSense1_5v"
 		(at 52.07 97.79 0)
@@ -1673,17 +1516,6 @@
 			(justify right bottom)
 		)
 		(uuid "dacf705a-05b9-4b16-9abb-9e84647f970d")
-	)
-	(label "GENERAL_BOARD_3_IND_LED_3v3"
-		(at 114.3 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e6625880-b907-466b-9f8c-1a6f8968cd81")
 	)
 	(label "12v_PWR_IND_LED"
 		(at 52.07 55.88 0)
@@ -2149,73 +1981,6 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 48.26 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "46f0399e-6dd7-4454-9f61-a2604a1f3c65")
-		(property "Reference" "D13"
-			(at 46.6725 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GENERAL_BOARD_1_IND"
-			(at 46.6725 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 48.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 48.26 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a1a2847f-106a-4e86-a762-1041ee93e5c5")
-		)
-		(pin "2"
-			(uuid "1c856282-a983-4ae6-bdc7-95dd92a35333")
-		)
-		(instances
-			(project "playground"
-				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
 		(at 48.26 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2277,73 +2042,6 @@
 			(project "playground"
 				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 48.26 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "57feee01-5b46-49a4-ba1c-f7eee0f0a988")
-		(property "Reference" "D14"
-			(at 46.6725 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GENERAL_BOARD_2_IND"
-			(at 46.6725 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 48.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 48.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "379146a6-dd8e-45d9-bfbd-074e2bdbaa41")
-		)
-		(pin "2"
-			(uuid "9952e020-b8ed-4245-83a4-c4073b4634aa")
-		)
-		(instances
-			(project "playground"
-				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52"
-					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -2657,7 +2355,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 124.46 0)
+		(at 41.91 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2666,7 +2364,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a116821-5e62-4b22-b511-130069b697af")
 		(property "Reference" "#PWR050"
-			(at 41.91 130.81 0)
+			(at 41.91 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2373,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 129.54 0)
+			(at 41.91 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +2381,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 124.46 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 124.46 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2701,7 +2399,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 124.46 0)
+			(at 41.91 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,196 +2817,6 @@
 			(project "playground"
 				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad5f0fd1-a826-4473-a32d-e538888e2653")
-		(property "Reference" "R9"
-			(at 120.65 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51R"
-			(at 120.65 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 120.65 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "0805W8F510JT5E"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
-			(at 120.65 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d379aff2-89e9-4966-9884-07791862b1ac")
-		)
-		(pin "1"
-			(uuid "28be5582-8114-42ee-b95f-433987a01614")
-		)
-		(instances
-			(project "playground"
-				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0382fbe-b607-4ffc-97f6-f3c6a19b421e")
-		(property "Reference" "R10"
-			(at 120.65 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "51R"
-			(at 120.65 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 120.65 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR.Part #" "0805W8F510JT5E"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
-			(at 120.65 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5139905-2f94-40c0-b978-0a4c49996768")
-		)
-		(pin "1"
-			(uuid "7d65c9a8-6c44-4f8b-ab75-8264011c35c0")
-		)
-		(instances
-			(project "playground"
-				(path "/e7dc7c2b-347f-4a52-91f1-4651868a2780/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52"
-					(reference "R10")
 					(unit 1)
 				)
 			)
