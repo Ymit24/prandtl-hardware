@@ -1,4 +1,4 @@
-23275274570707121
+23278697212517164
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95319,6 +95319,13 @@ Integrated Circuit
 20
 20
 custom_footprints
+SOP95P275X110-6N
+SOT 457
+Diode
+0
+6
+6
+custom_footprints
 SOT230P700X180-4N
 DCY (R-PDSO-G4)
 Integrated Circuit
@@ -95339,6 +95346,13 @@ SW_TS-1187A-B-A-B
 0
 4
 4
+custom_footprints
+TPD3E001DRYR
+TPD3E001DRYR-1
+Integrated Circuit
+0
+6
+6
 custom_footprints
 TXU0101DBVR
 DBV (R-PDSO-G6)

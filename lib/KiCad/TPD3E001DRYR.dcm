@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD3E001DRYR
+D Low-Capacitance 3-Channel +/-15KV ESD-Protection Array for High-Speed Data Interfaces
+K
+F http://www.ti.com/lit/gpn/tpd3e001
+$ENDCMP
+#
+#End Doc Library

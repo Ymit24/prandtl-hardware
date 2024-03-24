@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IP4234CZ6,125
+D IP4234CZ6 - Single USB 2.0 ESD protection to IEC 61000-4-2 level 4
+K
+F https://assets.nexperia.com/documents/data-sheet/IP4234CZ6.pdf
+$ENDCMP
+#
+#End Doc Library
