@@ -18512,7 +18512,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Too Hot Too Prandtl\nRev A 3/24"
+	(gr_text "Too Hot To Prandtl\nRev A 3/24"
 		(at 89 64 0)
 		(layer "F.SilkS")
 		(uuid "bde7ca78-b222-4b0e-ad71-0896df1b21cb")
