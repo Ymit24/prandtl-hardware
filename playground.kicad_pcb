@@ -339,7 +339,7 @@
 		(path "/24b00130-a909-4d41-888f-042d7acd514a")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.19 2.54)
 			(end -6.293 2.54)
@@ -1823,7 +1823,7 @@
 		(path "/002f80e5-1639-4473-81aa-0c7edfbc29da")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -3.75 13)
 			(end -3.7 13)
@@ -2727,7 +2727,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/dd98ffbc-9364-49b1-b78f-94a58338ee64")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.3 1.45)
 			(end -0.3 1.45)
@@ -3520,7 +3520,7 @@
 		(path "/56203a63-b6d4-4422-847a-3f2c99d44ffb")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.19 -3.3)
 			(end 1.386 -3.3)
@@ -5334,7 +5334,7 @@
 		(path "/b5c24ff9-e5b1-4367-be12-3b8a254ce9e4")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 11.1 -13.9)
 			(end 11.1 -1.1)
@@ -6571,7 +6571,7 @@
 		(path "/4d1f4e17-0e8b-43e1-b4e3-ec360aa300ec")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.87 -1.33)
 			(end 3.87 11.49)
@@ -9038,7 +9038,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/2d00d379-30a4-4cc0-b1bb-3a4a9aede972")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -10098,7 +10098,7 @@
 		(path "/f5721761-bede-48d5-8376-b79ed80439fb")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -9.19 2.54)
 			(end -6.293 2.54)
@@ -10439,7 +10439,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/d1ce89b3-fc67-4591-8d01-d4302b9e70b7")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -11369,7 +11369,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/cbcc5c60-7b13-4966-9d84-3d2a5a1a64da")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.3 1.45)
 			(end -0.3 1.45)
@@ -11980,7 +11980,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/b40c2820-32a8-4063-921d-070bdecc1d00")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.3 1.45)
 			(end -0.3 -1.45)
@@ -14048,7 +14048,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/85f6ae5c-3f02-4289-adad-08708bf59f91")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -15034,7 +15034,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/b2e741b6-08f4-4aca-b34d-10b5909c6a11")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.3 1.45)
 			(end -0.3 -1.45)
@@ -15381,7 +15381,7 @@
 		(path "/b9e836c5-20af-451a-8054-76c8b2d30056")
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.4 6.4)
 			(end -3.4 6.4)
@@ -16628,7 +16628,7 @@
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/9f2d1cb5-3c12-4937-b641-25de71541013")
 		(sheetname "level_shifters")
 		(sheetfile "level_shifters.kicad_sch")
-		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(attr smd exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
