@@ -215,7 +215,7 @@
 			(at -3.902 -0.245 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d037537e-8dd9-4d7b-bf69-5d723010b0e9")
+			(uuid "5eeff1a8-46ea-49e1-805d-9db58e180a9e")
 			(effects
 				(font
 					(size 1.2 1.27)
@@ -227,7 +227,7 @@
 			(at -3.902 -0.245 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "195f891e-7c53-4f37-8cab-a3b514de9ea1")
+			(uuid "97b20b52-f255-4c06-aee3-5e1db83cc275")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -240,7 +240,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d7baf12-ff89-4edb-ba8d-0bd39a56f42e")
+			(uuid "a2ba82db-4af0-4f8d-895c-181e3ec31669")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +252,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "66768065-c732-4be6-8821-d5d1c3fe7f3b")
+			(uuid "9cac034f-1be1-4def-8770-6b4f4658c438")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -264,7 +264,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3e9bcaf-3a98-4f44-90be-0ad44ccf54ff")
+			(uuid "df7b0ba9-1ae8-4d9c-b379-1008921179ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -337,6 +337,8 @@
 			)
 		)
 		(path "/24b00130-a909-4d41-888f-042d7acd514a")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -9.19 2.54)
@@ -346,7 +348,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c5a28e7-cca5-4b8a-b87e-5a8fe6bd1baa")
+			(uuid "4e512231-093c-4d97-a155-47c48cce42a1")
 		)
 		(fp_line
 			(start -9.19 2.54)
@@ -356,7 +358,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "06c56315-0cc3-440c-a880-7fdb611d066d")
+			(uuid "cce6dff3-f2f8-4397-b080-cf83529dc38f")
 		)
 		(fp_line
 			(start 1.386 2.54)
@@ -366,7 +368,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e5c619ea-993c-4cfd-b17f-886dec3d69fd")
+			(uuid "6be76fcd-f671-49de-9f1f-0ab40386d2c5")
 		)
 		(fp_line
 			(start -9.19 -3.3)
@@ -376,7 +378,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0b1523ae-68bb-4815-a297-5ce13defbae8")
+			(uuid "ed5eb451-d5db-4b14-bd46-76370c921a7c")
 		)
 		(fp_line
 			(start 1.386 -3.3)
@@ -386,7 +388,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ec14ae3a-3996-40c6-88c7-b000968bd085")
+			(uuid "764ee6a3-c70c-4b07-9a25-52e4280e0db9")
 		)
 		(fp_line
 			(start -10.19 3.81)
@@ -396,7 +398,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2b1e6e6c-7d1a-4dfd-b3e5-689ed088744e")
+			(uuid "f4b207c8-43c3-47dd-b582-4a3ee162e8dd")
 		)
 		(fp_line
 			(start 2.386 3.81)
@@ -406,7 +408,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "cbf6a3b5-ad10-4696-9bc4-e075eeb95850")
+			(uuid "ed5a4ca1-5c58-4795-89a3-d452ea656d53")
 		)
 		(fp_line
 			(start -10.19 -4.3)
@@ -416,7 +418,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1bae2d90-3e6d-4eac-a6c0-2bf9278e1b10")
+			(uuid "fd29a77e-a9cf-48a9-87a8-1baf52f9bbe6")
 		)
 		(fp_line
 			(start 2.386 -4.3)
@@ -426,7 +428,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f0d81cb7-1dfd-4b05-860a-83d31f5a0ad6")
+			(uuid "81870058-fe42-474c-a80d-64709ebb1cde")
 		)
 		(fp_line
 			(start -9.19 2.54)
@@ -436,7 +438,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "643c4901-2560-4578-9a4a-567beaa82926")
+			(uuid "c4e95b2b-58eb-4448-82bb-bebb62d7f12c")
 		)
 		(fp_line
 			(start 1.386 2.54)
@@ -446,7 +448,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "995eb742-4813-430b-96c6-b8790ae9971f")
+			(uuid "a45219f3-63b4-4d0d-bcb2-277c0acc0d73")
 		)
 		(fp_line
 			(start -9.19 -3.3)
@@ -456,7 +458,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "e9fa22ad-2ccf-408e-bdb1-d6d2c298cd7b")
+			(uuid "bb07f6b5-8070-4a4c-a87e-acafdb9513d8")
 		)
 		(fp_line
 			(start 1.386 -3.3)
@@ -466,12 +468,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a2197c59-c675-4cd3-85fc-073a9bfa7a8d")
+			(uuid "87815236-973b-4b8b-8467-68ebd37d1193")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3.902 -0.245 90)
 			(layer "F.Fab")
-			(uuid "29603855-aad6-4de3-b754-e0fd434e7f9d")
+			(uuid "501b3131-057c-4631-95d1-47c16c11b8c9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +486,7 @@
 			(size 1.3 1.3)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f5068dbd-85e0-4f41-b35e-2893e8464976")
+			(uuid "662e46c1-de94-4412-96c8-2ccd1d5f949d")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -495,7 +497,7 @@
 			(net 49 "unconnected-(J2-Pad1)")
 			(pinfunction "1")
 			(pintype "passive+no_connect")
-			(uuid "df56b3e0-5d53-4934-9eea-f96aebfa12f2")
+			(uuid "e7f1d362-5260-423f-9cb9-aaa99ee6eeb7")
 		)
 		(pad "2" thru_hole circle
 			(at -2.54 0 270)
@@ -506,7 +508,7 @@
 			(net 50 "unconnected-(J2-Pad2)")
 			(pinfunction "2")
 			(pintype "passive+no_connect")
-			(uuid "66e0ca81-d13e-48e6-9be4-022ade22e490")
+			(uuid "4d6c8a25-4740-4999-bcf8-9b755e0c4334")
 		)
 		(pad "3" thru_hole circle
 			(at -5.08 0 270)
@@ -517,7 +519,7 @@
 			(net 42 "/PumpSense_5v")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "520bf5c8-966e-4a1e-8b50-1bd6d9580a57")
+			(uuid "7b1d3ec7-022e-4c81-8ef3-bb1287184f03")
 		)
 		(pad "4" thru_hole circle
 			(at -7.62 0 270)
@@ -528,7 +530,7 @@
 			(net 34 "/PumpCtrl_5v")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "12b8d51f-9e0d-4f78-bce3-bbb9fc2b7835")
+			(uuid "5637d637-3163-4451-89b9-27583f60488d")
 		)
 		(model "${KIPRJMOD}/lib/3D/47053-1000.stp"
 			(offset
@@ -1819,6 +1821,8 @@
 			)
 		)
 		(path "/002f80e5-1639-4473-81aa-0c7edfbc29da")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -3.75 13)
@@ -2721,7 +2725,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/dd98ffbc-9364-49b1-b78f-94a58338ee64")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.3 1.45)
 			(end -0.3 1.45)
@@ -3512,6 +3518,8 @@
 			)
 		)
 		(path "/56203a63-b6d4-4422-847a-3f2c99d44ffb")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -9.19 -3.3)
@@ -3833,7 +3841,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52/04028d4e-e4f4-413e-a579-a3ef669df91d")
+		(sheetname "LEDs")
+		(sheetfile "leds.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -4328,7 +4339,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52/5c216289-307f-4ab2-8595-750120f5e787")
+		(sheetname "LEDs")
+		(sheetfile "leds.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -4817,7 +4831,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52/a04ea032-cbab-4c24-b1c9-f9bb7413fbc6")
+		(sheetname "LEDs")
+		(sheetfile "leds.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -5315,6 +5332,8 @@
 			)
 		)
 		(path "/b5c24ff9-e5b1-4367-be12-3b8a254ce9e4")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 11.1 -13.9)
@@ -6548,7 +6567,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/4d1f4e17-0e8b-43e1-b4e3-ec360aa300ec")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 3.87 -1.33)
@@ -7952,7 +7974,7 @@
 				)
 			)
 		)
-		(property "LCSC" "LM3940IMP-3.3/NOPB"
+		(property "LCSC" "C140319"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8665,6 +8687,8 @@
 			)
 		)
 		(path "/e344d1fc-b75a-4d9f-9636-e1983b59d97d")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.875 -1.6)
@@ -9012,7 +9036,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/2d00d379-30a4-4cc0-b1bb-3a4a9aede972")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -9948,7 +9974,7 @@
 			(at -3.902 -0.245 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "02868dc3-293d-4cf4-b7d8-4416cb6e1077")
+			(uuid "a79159ab-ffc6-49c9-a047-6d1f9d049da0")
 			(effects
 				(font
 					(size 1.2 1.27)
@@ -9960,7 +9986,7 @@
 			(at -3.902 -0.245 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1bbd0e6a-b242-4ebd-96f7-fb0f1904f321")
+			(uuid "a10cac66-d121-4290-96cd-a6376f4ba42b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9973,7 +9999,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7d71bc51-df47-4af2-a8b9-7a14ff1d3190")
+			(uuid "2d6f4eef-308e-47cd-b1af-692ea35958b7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9985,7 +10011,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa8106a4-7007-499b-9145-8c79b9d8db78")
+			(uuid "7bac2a9f-8282-4c82-938c-392204c18ce7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +10023,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6831e6f7-1115-48b3-bf03-763fa7dc3c28")
+			(uuid "ef9e841f-44d2-45f3-9537-adf271f68e8d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10070,6 +10096,8 @@
 			)
 		)
 		(path "/f5721761-bede-48d5-8376-b79ed80439fb")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -9.19 2.54)
@@ -10079,7 +10107,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "be51a15a-c541-4476-ba79-f3dca1ba4676")
+			(uuid "c010f63e-f698-4bab-8ec9-6bf7f363e634")
 		)
 		(fp_line
 			(start -9.19 2.54)
@@ -10089,7 +10117,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "91554d4c-45fb-4ddf-ad2e-4d589a713c95")
+			(uuid "cdda72c8-ff31-40de-b40a-17840d8ff98f")
 		)
 		(fp_line
 			(start 1.386 2.54)
@@ -10099,7 +10127,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4702dcc7-1ab6-493e-8e61-4780c155c71c")
+			(uuid "5b4e32e2-e53d-4935-b420-08cdcfa79c3c")
 		)
 		(fp_line
 			(start -9.19 -3.3)
@@ -10109,7 +10137,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "17583406-b97b-493d-a0de-0595bbb4d41b")
+			(uuid "e3b8dbc6-6071-478f-9607-983e4d4ab575")
 		)
 		(fp_line
 			(start 1.386 -3.3)
@@ -10119,7 +10147,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c4ce4cfd-6af4-4f3b-9418-8bd93f45660b")
+			(uuid "42f9b396-30ea-4814-96bf-6ceee2e77d05")
 		)
 		(fp_line
 			(start -10.19 3.81)
@@ -10129,7 +10157,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d5fbda4e-f442-4286-a1d0-e8569c93b44b")
+			(uuid "7544ec17-6a5a-4046-8fa8-9115e34c79ea")
 		)
 		(fp_line
 			(start 2.386 3.81)
@@ -10139,7 +10167,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "47b8ddfc-312d-4a46-82d5-ad66b922bd5b")
+			(uuid "8adfefdf-7156-4f1e-a44a-0d9b932f0aa4")
 		)
 		(fp_line
 			(start -10.19 -4.3)
@@ -10149,7 +10177,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f45ee608-8df7-4c3b-837b-4e9dd072d328")
+			(uuid "1bf8857e-60be-4806-b965-7042f351844e")
 		)
 		(fp_line
 			(start 2.386 -4.3)
@@ -10159,7 +10187,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3703c31a-486d-45eb-baa1-4bc248fbda07")
+			(uuid "6d7b327c-615b-4b75-b0f7-72f8ceeb1b9a")
 		)
 		(fp_line
 			(start -9.19 2.54)
@@ -10169,7 +10197,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "50a92e23-1c01-44b9-adde-01c18cef07e0")
+			(uuid "2620bc32-c007-4a95-a5e0-24297dd91efe")
 		)
 		(fp_line
 			(start 1.386 2.54)
@@ -10179,7 +10207,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "ebb9a317-3cb7-43eb-ba67-72e0f31c049b")
+			(uuid "5993a590-b6db-48c2-9171-10d16414bf42")
 		)
 		(fp_line
 			(start -9.19 -3.3)
@@ -10189,7 +10217,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d66e1de4-0836-4557-b8a0-346df256b7f7")
+			(uuid "c61a2982-283f-4594-b3fc-857d8ea231e8")
 		)
 		(fp_line
 			(start 1.386 -3.3)
@@ -10199,12 +10227,12 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "177f5357-1e91-4825-9686-85bdec668dc2")
+			(uuid "162b09e1-4d02-4a2c-a043-391f5c82db5e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at -3.902 -0.245 90)
 			(layer "F.Fab")
-			(uuid "80468317-a2a1-418c-af6e-c107ef1679f5")
+			(uuid "1851c4f3-8ccb-4cd3-ab0c-49e5fd73f3a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10245,7 @@
 			(size 1.3 1.3)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
-			(uuid "5781a3e3-e6cb-4b1f-b397-44a428eb6125")
+			(uuid "0277849d-0fd4-4cd4-8d4b-f17ea3f02b9c")
 		)
 		(pad "1" thru_hole rect
 			(at 0 0 270)
@@ -10228,7 +10256,7 @@
 			(net 51 "unconnected-(J3-Pad1)")
 			(pinfunction "1")
 			(pintype "passive+no_connect")
-			(uuid "bd60e869-5f3e-430b-bad7-592cb6325270")
+			(uuid "c60643b1-51a1-4105-8bf4-5d8146ce509b")
 		)
 		(pad "2" thru_hole circle
 			(at -2.54 0 270)
@@ -10239,7 +10267,7 @@
 			(net 52 "unconnected-(J3-Pad2)")
 			(pinfunction "2")
 			(pintype "passive+no_connect")
-			(uuid "c8c942db-5ed5-4df8-b1f5-d78ccd57b18f")
+			(uuid "811d41a2-f023-4554-95a7-a3d35c9d5751")
 		)
 		(pad "3" thru_hole circle
 			(at -5.08 0 270)
@@ -10250,7 +10278,7 @@
 			(net 43 "/FanSense_5v")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "e3d0b2bf-292e-4096-bfbe-b76975e2fa45")
+			(uuid "18e0f4d4-29da-437c-b187-e368d0990780")
 		)
 		(pad "4" thru_hole circle
 			(at -7.62 0 270)
@@ -10261,7 +10289,7 @@
 			(net 56 "/FanCtrl_5v")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "63f9e3c7-7c18-4627-b98a-ed9bf55c9c89")
+			(uuid "05ca3b82-65cf-47d3-ba0f-cb1b905b9dd0")
 		)
 		(model "${KIPRJMOD}/lib/3D/47053-1000.stp"
 			(offset
@@ -10409,7 +10437,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/d1ce89b3-fc67-4591-8d01-d4302b9e70b7")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -11337,7 +11367,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/cbcc5c60-7b13-4966-9d84-3d2a5a1a64da")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 0.3 1.45)
 			(end -0.3 1.45)
@@ -11666,7 +11698,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52/ecb9cba8-5b18-4ed6-84ce-62fb9899482e")
+		(sheetname "LEDs")
+		(sheetfile "leds.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -11943,7 +11978,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/b40c2820-32a8-4063-921d-070bdecc1d00")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.3 1.45)
 			(end -0.3 -1.45)
@@ -12925,7 +12962,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/56f6b540-6bbc-4a19-b825-ecd455e4b013")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13145,7 +13185,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8488c7dd-ee78-4e1e-bc44-9e5c6420ed52/9cb1f934-5734-434b-afaf-5b3257e504fa")
+		(sheetname "LEDs")
+		(sheetfile "leds.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)
@@ -13365,7 +13408,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/c3fa5b11-c55d-4db1-b6d7-a29a17791f8d")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 0.735)
@@ -14000,7 +14046,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/85f6ae5c-3f02-4289-adad-08708bf59f91")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -14505,7 +14553,7 @@
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.4 1)
 			(end -1.4 -1)
@@ -14984,7 +15032,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/b2e741b6-08f4-4aca-b34d-10b5909c6a11")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.3 1.45)
 			(end -0.3 -1.45)
@@ -15329,6 +15379,8 @@
 			)
 		)
 		(path "/b9e836c5-20af-451a-8054-76c8b2d30056")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 3.4 6.4)
@@ -16340,7 +16392,7 @@
 		(sheetname "Root")
 		(sheetfile "playground.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 1.4 -1)
 			(end 1.4 1)
@@ -16574,7 +16626,9 @@
 			)
 		)
 		(path "/74161ce2-c20f-4d1a-83e7-2f0e6893be4f/9f2d1cb5-3c12-4937-b641-25de71541013")
-		(attr smd exclude_from_pos_files)
+		(sheetname "level_shifters")
+		(sheetfile "level_shifters.kicad_sch")
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.85 -1.6)
 			(end -0.65 -1.6)
@@ -17087,7 +17141,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/a26e9d26-d4f4-4e81-88c2-2e593eaa7fbf")
+		(sheetname "Root")
+		(sheetfile "playground.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.227064 -0.735)

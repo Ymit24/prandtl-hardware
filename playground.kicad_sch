@@ -8688,9 +8688,9 @@
 		(at 220.98 22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "122e45f4-81ee-4189-a382-c3dfc9afae59")
 		(property "Reference" "JP1"
 			(at 220.98 20.066 0)
@@ -9531,7 +9531,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "LM3940IMP-3.3/NOPB"
+		(property "LCSC" "C140319"
 			(at 242.57 27.94 0)
 			(effects
 				(font
@@ -12524,9 +12524,9 @@
 		(at 245.11 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "af07c995-8395-4908-9875-6165c9c9cf7d")
 		(property "Reference" "JP2"
 			(at 245.11 41.656 0)
