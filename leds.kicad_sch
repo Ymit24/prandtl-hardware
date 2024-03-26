@@ -1605,7 +1605,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "200R"
 			(at 170.18 52.07 90)
 			(effects
 				(font
@@ -1667,6 +1667,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17540"
+			(at 170.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6999b0cc-39b1-4483-8a2d-83977d86abcb")
 		)
@@ -1700,7 +1709,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "200R"
 			(at 170.18 34.29 90)
 			(effects
 				(font
@@ -1754,6 +1763,15 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17540"
 			(at 170.18 38.1 0)
 			(effects
 				(font
@@ -1822,6 +1840,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2286"
 			(at 48.26 45.72 0)
 			(effects
 				(font
@@ -1964,6 +1991,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 48.26 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c08c6fdf-e2ee-46ef-a116-c1cf4f16a405")
 		)
@@ -2032,6 +2068,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 48.26 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e581174a-e8ae-46f7-93a4-7c8f9895c293")
 		)
@@ -2065,7 +2110,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "200R"
 			(at 170.18 60.96 90)
 			(effects
 				(font
@@ -2119,6 +2164,15 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
+			(at 170.18 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17540"
 			(at 170.18 64.77 0)
 			(effects
 				(font
@@ -2194,6 +2248,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2296"
+			(at 48.26 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c91afef4-aec7-4c10-be9b-50ef4671b9a6")
 		)
@@ -2253,6 +2316,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 48.26 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2296"
 			(at 48.26 97.79 0)
 			(effects
 				(font
@@ -2331,6 +2403,15 @@
 		)
 		(property "MFR.Part #" "0805W8F4700T5E"
 			(at 201.93 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17738"
+			(at 201.93 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.9 39.878 90)
 			(effects
 				(font
@@ -2473,6 +2554,15 @@
 			)
 		)
 		(property "MFR.Part #" "1206W4F3000T5E"
+			(at 215.9 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17617"
 			(at 215.9 38.1 0)
 			(effects
 				(font
@@ -2551,6 +2641,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17738"
+			(at 208.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b84b9f8-9e3b-449d-bf21-8841a0b0e263")
 		)
@@ -2584,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "200R"
 			(at 170.18 43.18 90)
 			(effects
 				(font
@@ -2638,6 +2737,15 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
+			(at 170.18 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17540"
 			(at 170.18 46.99 0)
 			(effects
 				(font
@@ -2733,6 +2841,15 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
+			(at 120.65 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17738"
 			(at 120.65 46.99 0)
 			(effects
 				(font
@@ -2940,6 +3057,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85469416-eef4-4e76-8bd7-31a3d3f5e08f")
 		)
@@ -3007,6 +3133,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2297"
+			(at 48.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b160c84e-bd7f-4659-b274-e051b261b3c0")
 		)
@@ -3040,7 +3175,7 @@
 				)
 			)
 		)
-		(property "Value" "20R"
+		(property "Value" "200R"
 			(at 170.18 69.85 90)
 			(effects
 				(font
@@ -3094,6 +3229,15 @@
 			)
 		)
 		(property "URL" "https://jlcpcb.com/partdetail/18426-0805W8F510JT5E/C17738"
+			(at 170.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17540"
 			(at 170.18 73.66 0)
 			(effects
 				(font
