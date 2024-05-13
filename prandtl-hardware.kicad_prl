@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "playground.kicad_prl",
+    "filename": "prandtl-hardware.kicad_prl",
     "version": 3
   },
   "project": {

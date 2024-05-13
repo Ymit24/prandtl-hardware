@@ -448,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "playground.kicad_pro",
+    "filename": "prandtl-hardware.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -624,7 +624,7 @@
       "plot": "",
       "pos_files": "production_files/pos/",
       "specctra_dsn": "",
-      "step": "playground.step",
+      "step": "prandtl-hardware.step",
       "svg": "",
       "vrml": ""
     },
